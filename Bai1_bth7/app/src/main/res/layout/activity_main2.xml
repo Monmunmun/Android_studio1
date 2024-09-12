@@ -11,16 +11,18 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Back to Main Charity"
-        tools:layout_editor_absoluteX="134dp"
+        android:text="Back to Main Activity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="362dp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Wellcome to charity"
+        android:text="This is Child_Activity"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="74dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="161dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
